@@ -1,0 +1,177 @@
+body {
+
+    margin:0;
+    background:cover;
+    background-image: url("https://i.imgur.com/IS70c9w.jpg");
+    background-color: #262626;
+  }
+  
+  .question {
+    text-align: center;
+  }
+  
+  .btn {
+    height: 50px;
+    width: 200px;
+  }
+  
+  legend {
+    font-size: 22px;
+    font-weight: 600;
+    
+  }
+  
+  #start-btn {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .intro {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  
+  header {
+    margin-top: 25px;
+    height:80px;
+    color: white;
+    margin-bottom: 55px;
+  }
+  
+  .indicate {
+    font: monospace;
+  }
+  
+  .questionbutton button {
+    display: block;
+    margin: 0 auto; 
+  }
+  
+  .starting_content {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    line-height: 1;
+    top:24px;
+    text-align: center;
+  }
+  
+  .answer {
+    font-weight: bold;
+  }
+  
+   .correct-answer {
+   border:12px solid rgb(2, 94, 2);
+   text-align: center;
+   font-size: 20px;
+  } 
+  
+  .incorrect-answer {
+  border:12px solid #c90707;
+  text-align: center;
+  font-size: 20px;
+  }
+  
+  header .question-and-score {
+    font-size: 20px;
+    font-weight: 600px;
+    color:white;
+    background: none;
+  }
+  
+  .question-and-score ul {
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+    width:80%;
+    margin:0 auto;
+    max-width: 80%;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    
+  }
+  
+  .question-and-score li {
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    ;
+  }
+  
+  button {
+    margin-top:10px;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color:black;
+    background: rgb(205, 8, 212);
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 0;
+    border-radius:15px;
+    padding: 10px 20px;
+  }
+  
+  #restart {
+    width: 200px;
+  }
+  
+  .ending {
+    text-align: center;
+  }
+  
+  fieldset {
+    width:80%;
+    margin:0 auto;
+    max-width: 80%;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  
+  .question-form .question {
+    margin-bottom: 20px;
+    padding: 0 2%;
+    font-size: 20px;
+    font-weight: 600px;
+  }
+  
+  .options ul {
+    list-style: none;
+    margin:0;
+    text-align:left;
+  }
+  
+  label {
+    font-size:18px;
+  }
+  
+  .options span {
+    display:block;
+    border-radius: 10px;
+  }
+  
+   
+  #scoreboard {
+    font-size: 30px;
+    text-align: center;
+    background: rgb(205, 8, 212);
+    border-radius:15px;
+    padding: 10px 20px;
+   
+  }
